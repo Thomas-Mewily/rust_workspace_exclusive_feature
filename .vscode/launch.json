@@ -5,25 +5,35 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug executable 'exclusive_feature'",
-            "type": "lldb",
-            "request": "launch",
-            "cargo": {
-                "args": [
-                    "run",
-                    "--bin=exclusive_feature"
-                ]
-            },
-            "args": []
-        },
-        {
-            "name": "Debug unit tests in executable 'exclusive_feature'",
+            "name": "Debug unit tests in library 'bit32'",
             "type": "lldb",
             "request": "launch",
             "cargo": {
                 "args": [
                     "test",
-                    "--bin=exclusive_feature"
+                    "--package=bit32"
+                ]
+            }
+        },
+        {
+            "name": "Debug unit tests in library 'exclusive_feature'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--package=exclusive_feature"
+                ]
+            }
+        },
+        {
+            "name": "Debug unit tests in library 'bit64'",
+            "type": "lldb",
+            "request": "launch",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--package=bit64"
                 ]
             }
         }
