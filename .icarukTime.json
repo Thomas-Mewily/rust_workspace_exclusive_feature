@@ -1,16 +1,18 @@
 {
     "idleHeartbeats": 152,
-    "navigatingHeartbeats": 88,
-    "totalCodingHeartbeats": 768,
+    "navigatingHeartbeats": 138,
+    "totalCodingHeartbeats": 875,
     "languageHeartbeats": {
         "toml": 659,
-        "rust": 109
+        "rust": 109,
+        "markdown": 107
     },
     "fileHeartbeats": {
         "Cargo.toml": 146,
         "exclusive_feature/Cargo.toml": 202,
         "b/Cargo.toml": 291,
         "exclusive_feature/src/lib.rs": 109,
-        "bit32/Cargo.toml": 20
+        "bit32/Cargo.toml": 20,
+        "readme.md": 107
     }
 }
