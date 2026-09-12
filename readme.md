@@ -1,4 +1,4 @@
-# Testing how excluive feature work in a workspace
+# Testing how exclusive feature work in a workspace
 
 The crate `exclusive_feature` define some exclusive feature `int_are_32_bits` and `int_are_64_bits`,
 and crate `bit32` depend on `exclusive_feature` with the feature `int_are_32_bits`, 
