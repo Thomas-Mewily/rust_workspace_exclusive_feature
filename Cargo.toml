@@ -1,0 +1,12 @@
+[workspace]
+resolver = "3"
+members = ["b", "c","exclusive_feature"]
+
+
+[workspace.package]
+version = "0.0.1"
+license = "MIT OR Apache-2.0"
+edition = "2024"
+
+[workspace.dependencies]
+exclusive_feature = { path = "./exclusive_feature", version = "0.0.1", default-features = false }

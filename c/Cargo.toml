@@ -1,0 +1,8 @@
+[package]
+name = "c"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+exclusive_feature = { workspace = true, features = ["int_are_64_bits"], default-features = false }

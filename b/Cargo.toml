@@ -1,0 +1,8 @@
+[package]
+name = "b"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+exclusive_feature = { workspace = true, features = ["int_are_32_bits"], default-features = false }
