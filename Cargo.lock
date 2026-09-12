@@ -3,14 +3,14 @@
 version = 4
 
 [[package]]
-name = "b"
+name = "bit32"
 version = "0.0.1"
 dependencies = [
  "exclusive_feature",
 ]
 
 [[package]]
-name = "c"
+name = "bit64"
 version = "0.0.1"
 dependencies = [
  "exclusive_feature",
