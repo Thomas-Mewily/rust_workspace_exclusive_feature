@@ -6,11 +6,11 @@ while crate `bit64` depend on `exclusive_feature` with the feature `int_are_64_b
 
 Command like 
 ```shell
-# Fail
+# Fail to check the whole workspace
 cargo check
 ```
 
-But checking them individually work.
+But checking them individually work :
 
 ```shell
 # Work
@@ -18,7 +18,7 @@ cargo check -p bit64
 cargo check -p bit32
 ```
 
-I don't think there is a unify way to call `cargo check` one time to check the whole workspace.
+I don't think there is an unify way to call `cargo check` one time to check the whole workspace.
 
 # Other draft / random cool command :
 
